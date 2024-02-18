@@ -14,7 +14,6 @@
 .hero-section h1 {
 	width: 496px;
 	height: 120px;
-	font-family: var(--font-family);
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07143;
@@ -23,14 +22,13 @@
 	color: var(--white);
 }
 
-.hero-section button[type="button"] {
+.hero-section button {
 	width: 169px;
 	height: 56px;
 	padding: 16px 32px;
 	background: var(--iris);
 	border-radius: 4px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -39,6 +37,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+}
+
+.hero-section button:hover {
+	color: var(--green);
+	background: var(--slate);
 }
 
 .section-one {
@@ -54,17 +58,13 @@
 }
 
 .section-one-list-item h2 {
-	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: var(--navy-blue);
 }
 
 .section-one-list-item p {
-	font-family: var(--font-family);
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -89,14 +89,12 @@
 }
 
 .section-two h2 {
-	font-family: var(--font-family);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11111;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-align: center;
-	color: var(--navy-blue);
 }
 
 .section-two-list {
@@ -117,18 +115,17 @@
 	margin-top: 120px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 72px;
 }
 
 .section-tree h2 {
-	font-family: var(--font-family);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11111;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
-	text-align: center;
-	color: var(--navy-blue);
 }
 
 .card-list {

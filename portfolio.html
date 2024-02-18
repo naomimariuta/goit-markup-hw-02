@@ -94,105 +94,147 @@
 
 		<main>
 			<!-- sectiunea filters -->
-			<section>
-				<ul>
-					<li><button type="button">All</button></li>
-					<li><button type="button">Web Site</button></li>
-					<li><button type="button">App</button></li>
-					<li><button type="button">Design</button></li>
-					<li><button type="button">Marketing</button></li>
-				</ul>
-			</section>
-
-			<!-- sectiunea row1 -->
-			<section>
-				<ul>
+			<section class="filters-section">
+				<ul class="filters-section-list">
 					<li>
-						<img
-							src="./images/banking-app-interface-concept.jpg"
-							alt="Banking App Interface Concept"
-						/>
-						<h2>Banking App Interface Concept</h2>
-						<span>App</span>
+						<button
+							type="button"
+							class="filters-section-list-button all"
+						>
+							All
+						</button>
 					</li>
 					<li>
-						<img
-							src="./images/cashless-payment.jpg"
-							alt="Cashless Payment"
-						/>
-						<h2>Cashless Payment</h2>
-						<span>Marketing</span>
+						<button
+							type="button"
+							class="filters-section-list-button web-site"
+						>
+							Web Site
+						</button>
 					</li>
 					<li>
-						<img
-							src="./images/meditation-app.jpg"
-							alt="Meditation App"
-						/>
-						<h2>Meditation App</h2>
-						<span>App</span>
-					</li>
-				</ul>
-			</section>
-
-			<!-- sectiunea row2 -->
-			<section>
-				<ul>
-					<li>
-						<img
-							src="./images/taxi-service.jpg"
-							alt="Taxi Service"
-						/>
-						<h2>Taxi Service</h2>
-						<span>Marketing</span>
+						<button
+							type="button"
+							class="filters-section-list-button app"
+						>
+							App
+						</button>
 					</li>
 					<li>
-						<img
-							src="./images/screen-illustrations.jpg"
-							alt="Screen Illustrations"
-						/>
-						<h2>Screen Illustrations</h2>
-						<span>Design</span>
+						<button
+							type="button"
+							class="filters-section-list-button design"
+						>
+							Design
+						</button>
 					</li>
 					<li>
-						<img
-							src="./images/online-courses.jpg"
-							alt="Online Courses"
-						/>
-						<h2>Online Courses</h2>
-						<span>Marketing</span>
+						<button
+							type="button"
+							class="filters-section-list-button"
+						>
+							Marketing
+						</button>
 					</li>
 				</ul>
 			</section>
 
-			<!-- sectiunea row3 -->
-			<section>
-				<ul>
-					<li>
-						<img
-							src="./images/instagram-stories-concept.jpg"
-							alt="Instagram Stories Concept"
-						/>
-						<h2>Instagram Stories Concept</h2>
-						<span>Design</span>
-					</li>
-					<li>
-						<img
-							src="./images/organic-food.jpg"
-							alt="Organic Food"
-						/>
-						<h2>Organic Food</h2>
-						<span>Web Site</span>
-					</li>
-					<li>
-						<img
-							src="./images/fresh-coffee.jpg"
-							alt="Fresh Coffee"
-						/>
-						<h2>Fresh Coffee</h2>
-						<span>Web Site</span>
-					</li>
-				</ul>
-			</section>
+			<!-- am adaugat sectiunile intr-o lista pentru a fi mai usor la stilizare sa le pun una sub alta cu flex -->
+			<ul class="sections-list">
+				<li>
+					<!-- sectiunea row1 -->
+					<section class="section-row">
+						<ul class="section-row-list">
+							<li class="project-card">
+								<img
+									src="./images/banking-app-interface-concept.jpg"
+									alt="Banking App Interface Concept"
+								/>
+								<h2>Banking App Interface Concept</h2>
+								<span>App</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/cashless-payment.jpg"
+									alt="Cashless Payment"
+								/>
+								<h2>Cashless Payment</h2>
+								<span>Marketing</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/meditation-app.jpg"
+									alt="Meditation App"
+								/>
+								<h2>Meditation App</h2>
+								<span>App</span>
+							</li>
+						</ul>
+					</section>
+				</li>
+				<li>
+					<!-- sectiunea row2 -->
+					<section class="section-row">
+						<ul class="section-row-list">
+							<li class="project-card">
+								<img
+									src="./images/taxi-service.jpg"
+									alt="Taxi Service"
+								/>
+								<h2>Taxi Service</h2>
+								<span>Marketing</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/screen-illustrations.jpg"
+									alt="Screen Illustrations"
+								/>
+								<h2>Screen Illustrations</h2>
+								<span>Design</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/online-courses.jpg"
+									alt="Online Courses"
+								/>
+								<h2>Online Courses</h2>
+								<span>Marketing</span>
+							</li>
+						</ul>
+					</section>
+				</li>
+				<li>
+					<!-- sectiunea row3 -->
+					<section class="section-row">
+						<ul class="section-row-list">
+							<li class="project-card">
+								<img
+									src="./images/instagram-stories-concept.jpg"
+									alt="Instagram Stories Concept"
+								/>
+								<h2>Instagram Stories Concept</h2>
+								<span>Design</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/organic-food.jpg"
+									alt="Organic Food"
+								/>
+								<h2>Organic Food</h2>
+								<span>Web Site</span>
+							</li>
+							<li class="project-card">
+								<img
+									src="./images/fresh-coffee.jpg"
+									alt="Fresh Coffee"
+								/>
+								<h2>Fresh Coffee</h2>
+								<span>Web Site</span>
+							</li>
+						</ul>
+					</section>
+				</li>
+			</ul>
 		</main>
 
 		<footer class="footer-section">
